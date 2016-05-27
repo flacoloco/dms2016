@@ -1,0 +1,29 @@
+$baseline-px = 16
+
+border-radius()
+	-webkit-border-radius: arguments
+	-moz-border-radius: arguments
+	border-radius: arguments
+
+centerY()
+	transform: translateY(-50%)
+	-webkit-transform: translateY(-50%)
+
+centerX()
+	left 50%
+	transform: translateX(-50%)
+	-webkit-transform: translateX(-50%)
+
+centerXY()
+	transform: translateX(-50%) translateY(-50%)
+	-webkit-transform: translateX(-50%) translateY(-50%)
+
+
+scaleXY(value)
+	transform: scale(value)
+	-webkit-transform: scale(value)
+
+
+remtext(fontsize, lineheight)
+	font-size unit(fontsize, 'rem')
+	line-height unit(lineheight, 'rem')
