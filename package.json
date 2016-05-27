@@ -1,0 +1,32 @@
+{
+  "name": "html5bootstrap",
+  "version": "0.0.0",
+  "description": "#####Development technologies * [Jade](http://jade-lang.com): to markup * [Stylus](https://learnboost.github.io/stylus/): to styles * [JS](http://vanilla-js.com/): to interaction",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.8.11"
+  },
+  "devDependencies": {
+    "gulp-concat": "^2.5.2",
+    "gulp-connect": "^2.2.0",
+    "gulp-jade": "^1.0.0",
+    "gulp-jshint": "^1.10.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-stylus": "^2.0.1",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-uglify": "^1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://flacoloco@github.com/flacoloco/flacoloco-html5-bootstrap.git"
+  },
+  "author": "flacoloco",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flacoloco/flacoloco-html5-bootstrap/issues"
+  },
+  "homepage": "https://github.com/flacoloco/flacoloco-html5-bootstrap"
+}
